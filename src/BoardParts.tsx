@@ -25,6 +25,7 @@ export enum moves {
 interface Move {
     // -1 for infinite
     steps : number;
+    // canKill : boolean; // add this im too sleepy
     requiresClearPath: boolean;
     // Custom logic for special moves
     specialMoveLogic?: () => moves[][];

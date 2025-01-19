@@ -1,13 +1,8 @@
 
 import { useEffect, useState } from 'react';
 import { Pressable, SafeAreaView, StyleSheet, Switch, Text, View } from 'react-native';
-import Cell from '../BoardParts';
-import { color } from '../BoardParts';
-import { Pawn } from '../BoardParts';
-import { Rook } from '../BoardParts';
-import { Bishop } from '../BoardParts';
-import { Knight } from '../BoardParts';
-import { moves } from '../BoardParts';
+import Cell,
+{ color, Pawn, Rook, Bishop, Knight, moves } from '../BoardParts';
 
 export default function Home() {
     // 2D Array of cells
